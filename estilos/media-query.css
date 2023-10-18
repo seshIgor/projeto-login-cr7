@@ -6,6 +6,7 @@
     }
     section#login {
         width: 80vw;
+        height: 310px;
     }
 
     section#login > div#imagem {
@@ -14,9 +15,15 @@
         height: 100%;
     }
 
-    sectiion#login > div#formulario {
+    section#login > div#formulario {
         float: right;
         width: 55%;
+    }
+
+    div#formulario > p {
+        font-size: 1em;
+        margin: 5px 0px;
+        text-indent: 5px;
     }
 }
 
@@ -27,6 +34,7 @@
     
     section#login {
         width: 950px;
+        height: 380px;
     }
     
     section#login > div#imagem {
@@ -35,7 +43,7 @@
         height: 100%;
     }
 
-    sectiion#login > div#formulario {
+    section#login > div#formulario {
         float: left;
         width: 50%;
     }
@@ -46,5 +54,7 @@
 
     div#formulario > p {
         font-size: 1.5em;
+        margin: 10px 0px;
+        text-indent: 5px;
     }
 }
